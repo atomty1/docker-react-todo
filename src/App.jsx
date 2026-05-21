@@ -39,6 +39,7 @@ const  App = ()=> {
   return (
     <div style={{ padding: "40px" }}>
       <h1>My Todo App</h1>
+      <h2>I know github actions</h2>
       
       <TodoForm onAdd={handleAdd} />
 
