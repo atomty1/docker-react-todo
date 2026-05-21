@@ -38,8 +38,8 @@ const  App = ()=> {
 
   return (
     <div style={{ padding: "40px" }}>
-      <h1>Todo App</h1>
-
+      <h1>My Todo App</h1>
+      
       <TodoForm onAdd={handleAdd} />
 
       <TodoList
